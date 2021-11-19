@@ -1,0 +1,9 @@
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.darkTheme button {
+    color: var(--dark-text-color);
+}

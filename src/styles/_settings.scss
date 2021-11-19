@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Josefin+Sans:wght@100&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500');
+
+$font-0: 'Poppins', sans-serif;
+$font-1: 'Roboto', cursive;
+$font-2: 'Dosis', sans-serif;
+$font-3: 'Josefin Sans', serif;
+
+$color-1: #2a1d52;
+$color-2: #6C77F4;
+$color-3: rgb(99, 164, 233);
+$color-4: #4FEDD2;
+$color-5: #36D0EA;
+$white: #ddd;
+$black: #333;
+
+$borderRadius : 5px;
+$shadow: 0 1 px 3px $black;
+$minHeight: 95vh;
+
+@mixin verticalCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+:root{
+    /*colors*/
+    --body-bg-color: #ffffff;
+    --sidebar-bg-color: #f4f4f4;
+    --text-color: #333333;
+    --title-color: #111111;
+    --date-color: #1f94c2;
+    --dark-body-bg-color: #242424;
+    --dark-sidebar-bg-color: #171717;
+    --dark-text-color: #d8d8d8;
+    --dark-title-color: #ffffff;
+    --dark-date-color: #e6ef71;
+
+    --icon-color: var(--text-color);
+    --circle-color: #aaa;
+    --circle-color-plain: #555;
+    --dark-icon-color: var(--dark-text-color);
+    --dark-circle-color: rgb(108, 108, 108);
+    --dark-circle-color-plain:rgb(238, 238, 238);
+
+
+    /*fonts*/
+    --body-font: "Poppins", "Sans-serif";
+    --h1-font-size: 1.7rem;
+    --h2-font-size: 1.2rem;
+    --h3-font-size: 1rem;
+
+    /*helpers*/
+    --spacing-1: .4rem;
+    --spacing-2: .8rem;
+    --spacing-3: 1.2rem;
+    --spacing-4: 1.5rem;
+    --spacing-5: 2rem;
+}
+
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body{
+    margin: 1rem auto;
+    max-width: 1200px;
+    font-family: $font-0;
+    font-weight: 200;
+    color: $black;
+    background-color: var(--body-bg-color);
+}
+
+.darkTheme{
+    color: var(--dark-text-color);
+    background-color: var(--dark-body-bg-color);
+}
+
+button{
+    cursor: pointer;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+a:visited{
+    color: $black;
+}
+
+.home, .portfolio, .knowledges, .notFound, .contact, .cv{
+    display: flex;
+
+    @media screen and (max-width: 850px) {
+        display: block !important;
+    }
+}
+
+.homeContent, .portfolioContent, .knowledgesContent, .notFoundContent, .contactContent, .cvContent{
+    margin-left: .4rem;
+
+    @media screen and (max-width: 850px) {
+        margin-left: 0 !important;
+    }
+}
+

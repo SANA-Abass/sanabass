@@ -1,0 +1,32 @@
+.identity{
+    position: relative;
+    text-align: center;
+
+    .id-content{
+        .id-avatar{
+            border-radius: 50%;
+        }
+    }
+
+    .id-infos{
+        text-align: left;
+        padding: var(--spacing-3) 0 var(spacing-1) 0;
+       
+        .id-info{
+            display: flex;
+        }
+
+        .id-info i{
+            color: var(--icon-color);
+            margin-right: var(--spacing-1);
+        }
+
+        p{
+            margin-bottom: var(--spacing-1);
+        }
+
+        address{
+            color: $black;
+        }
+    }
+}
