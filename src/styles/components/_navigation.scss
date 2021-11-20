@@ -1,5 +1,6 @@
 .sidebar {
-    background: var(--sidebar-bg-color);
+    /*background: linear-gradient(115deg, $color-1 50%, transparent 100%);*/
+    background: $color-1 ;
     font-family: $font-1;
     height: 100%;
     min-height: $minHeight;
@@ -12,34 +13,44 @@
     grid-template-areas: 
       "1"
       "2"
-      "3";
+      "3"
+    ;
   
     .id {
       grid-area: 1;
       text-align: center;
       user-select: none;
       position: relative;
-  
+      
       .idContent {
         position: absolute;
-        bottom: 0;
+        top: 1rem;
         left: 50%;
         transform: translateX(-50%);
         width: 100%;
+
+        span.brieffing{
+          font-size: .7rem;
+          letter-spacing: .1rem;
+          margin-top: .2rem;
+          color: #eee;
+        }
   
         img {
-          width:50px;
-          height: 50px;
+          width: 100px;
+          height: 100px;
           border-radius: 50%;
           box-shadow: 0 0 0 2px $color-1;
         }
+        
         h3 {
-          font-size: 1.3rem;
+          font-size: .7rem;
           text-transform: uppercase;
           letter-spacing: .2rem;
-          margin-top: 1.5rem;
-          color: $color-5;
+          margin-top: .5rem;
+          color: $color-3;
         }
+
       }
     }
     .navigation {
@@ -60,8 +71,9 @@
           }
   
           a {
-          color: $color-5;
+          color: $color-3;
           }
+          
           .navActive {
             color: $color-4;
           }
@@ -74,6 +86,10 @@
           }
           span {
             margin-left: 2.7rem;
+          }
+          span:hover {
+            transform: translate(3px, 3px);
+            color: $color-5;
           }
         }
       }
@@ -90,7 +106,7 @@
   
         li {
           font-size: 1.5rem;
-          background: $color-5;
+          background: $color-3;
           color: $color-1;
           border-radius: 50%;
           padding: .5rem 0.8rem;
@@ -132,13 +148,37 @@
 
   @media screen and (max-width: 850px){
     .sidebar {
+      background: $color-1 ;
       display: flex;
       min-height: 50px;
       margin-bottom: .2rem;
-  
-      .id, .socialNetwork {
+
+      .socialNetwork {
         display: none;
       }
+
+      .id {
+        .idContent {
+          top: 3px !important;
+          left: 3px !important;
+
+          h3{
+            display: none;
+          }
+
+          span{
+            display: none;
+          }
+
+          img {
+            width:10px;
+            height: 10px;
+            border-radius: 50%;
+            box-shadow: 0 0 0 2px $color-1;
+          }
+        }
+      }
+
       .navigation {
         width: 100%;
         padding: .1rem 1rem;
@@ -157,6 +197,30 @@
   
   @media screen and (max-width:580px){
     .sidebar {
+      background: $color-1 ;
+
+      .id {
+        .idContent {
+          top: 10px !important;
+          left: 10px !important;
+
+          h3{
+            display: none;
+          }
+
+          span{
+            display: none;
+          }
+
+          img {
+            width:30px;
+            height: 30px;
+            border-radius: 50%;
+            box-shadow: 0 0 0 2px $color-1;
+          }
+        }
+      }
+
       ul {
         justify-content: space-around !important;
   

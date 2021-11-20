@@ -3,7 +3,7 @@ import React from 'react';
 function Cursus({datas}) {
     return (
         <div className="cursus mb3">
-            <h2><i class="fas fa-graduation-cap"></i> Formations</h2>
+            <h2><i className="fas fa-graduation-cap"></i> Formations</h2>
             {datas.map(item => (
                 <div className="grid-row" key={item.id}>
                     <div className="grid-item">

@@ -3,7 +3,7 @@ import React from 'react';
 function Experiences({datas}) {
     return (
         <div className="experiences mb3">
-            <h2><i class="fas fa-briefcase"></i> Expériences professionnelles</h2>
+            <h2><i className="fas fa-briefcase"></i> Expériences professionnelles</h2>
             {datas.map(item => (
                 <div className="grid-row" key={item.id}>
                     <div className="grid-item">

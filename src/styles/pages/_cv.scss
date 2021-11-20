@@ -96,6 +96,7 @@ h2{
     position: relative;
     padding: 1.5rem;
     background-color: var(--sidebar-bg-color);
+    border-radius: 5px;
 
     .header-actions{
         display: flex;
@@ -118,11 +119,20 @@ h2{
 
 .darkTheme .sidebar-container{
     background-color: var(--dark-sidebar-bg-color);
+    border-radius: 5px;
 }
 
 .main-container{
     padding: 1.5rem; 
+    background-color: #bebebe;
+    border-radius: 5px;
 }
+
+.darkTheme .main-container{
+    background-color: #303030;
+    border-radius: 5px;
+}
+
 
 /*Generate PDF*/
 #pdf-print{

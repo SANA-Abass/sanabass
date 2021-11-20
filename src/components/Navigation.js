@@ -6,41 +6,42 @@ const Navigation = () => {
         <div className="sidebar">
             <div className="id">
                 <div className="idContent">
-                    <img src="./media/img/sanaabass.jpg" alt="Abass-SANA"/>
-                    <h3>Dr. Abass SANA</h3>
+                    <img  src={process.env.PUBLIC_URL + '/media/img/sanaabass.jpg'} alt="Abass-SANA"/>
+                    <h3>M. Abass SANA</h3>
+                    <span className="brieffing">Développeur full-stack de projets logiciels à la société d'études des systèmes d'information (SESIN). Doctorant-chercheur en algorithme d'intelligence artificielle au laboratoire images, signaux et systèmes intélligents (LISSI) de l'Université Paris XII</span>
                 </div>
             </div>
 
             <div className="navigation">
                 <ul>
                     <li>
-                        <NavLink activeclassname="navActive" exact to="/">
+                        <NavLink activeclassname="navActive" to="/">
                             <i className="fas fa-home"></i>
                             <span>Accueil</span>
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink exact to="/competences" activeclassname="navActive">
+                        <NavLink to="/competences" activeclassname="navActive">
                             <i className="fas fa-mountain"></i>
-                            <span>Compétences</span>
+                            <span>ChatApp</span>
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink exact to="/portfolio" activeclassname="navActive">
+                        <NavLink to="/portfolio" activeclassname="navActive">
                             <i className="fas fa-images"></i>
                             <span>Portfolio</span>
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink exact to="/contact" activeclassname="navActive">
+                        <NavLink to="/contact" activeclassname="navActive">
                             <i className="fas fa-address-book"></i>
                             <span>Contact</span>
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink exact to="/cv" activeclassname="navActive">
+                        <NavLink to="/cv" activeclassname="navActive">
                             <i className="fas fa-briefcase"></i>
-                            <span>CV</span>
+                            <span>CVthèque</span>
                         </NavLink>
                     </li>
                 </ul>
@@ -54,17 +55,17 @@ const Navigation = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.github.com" target="_blank" rel="noopener noreferrer">
                             <i className="fab fa-github"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
                             <i className="fab fa-twitter"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.codepen.com" target="_blank" rel="noopener noreferrer">
                             <i className="fab fa-codepen"></i>
                         </a>
                     </li>
@@ -72,7 +73,7 @@ const Navigation = () => {
             </div>
 
             <div className="signature">
-                <p>afritic - 2020</p>
+                <p>SA</p>
             </div>
         </div>
     );

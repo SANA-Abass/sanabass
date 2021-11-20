@@ -7,10 +7,10 @@ const Home = () => {
             <Navigation/>
             <div className="homeContent">
                 <div className="content">
-                    <h1>Knowledges</h1>
-                    <h2>Développeur projet logiciel</h2>
+                    <h1>Bienvenue</h1>
+                    <h2>cvthèque</h2>
                     <div className="downloadCVPDF">
-                        <a href="./media/files/CV.pdf" target="_blank">Télécharger CV</a>
+                        <a href={process.env.PUBLIC_URL + '/media/files/CV.pdf'} rel="noreferrer" target="_blank">Télécharger CV</a>
                     </div>
                 </div>
             </div>

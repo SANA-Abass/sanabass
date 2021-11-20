@@ -4,7 +4,7 @@ const User = () => {
     return (
         <div className="identity">
             <div className="id-content">
-                <img className="id-avatar" src="./media/img/sanaabass.jpg" alt="Abass-SANA"/>
+                <img className="id-avatar" src={process.env.PUBLIC_URL + "/media/img/sanaabass.jpg"} alt="profil-pic"/>
                 <h1 className="id-name">Abass SANA</h1>
                 <p className="id-profession"> Développeur et doctorant en IA </p>
             </div>

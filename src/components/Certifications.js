@@ -3,7 +3,7 @@ import React from 'react';
 function Certifications({datas}) {
     return (
         <div className="cursus mb3">
-            <h2><i class="fas fa-medal"></i> Certifications (36) &amp; Compétences en informatique</h2>
+            <h2><i className="fas fa-medal"></i> Compétences certifiées (36)</h2>
             <div className="grid-row">
                 <div className="grid-item">
                     <p >MOS : Microsoft Office Specialist</p>
