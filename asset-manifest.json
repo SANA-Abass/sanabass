@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/sanabass/static/css/main.276ba707.chunk.css",
-    "main.js": "/sanabass/static/js/main.f6eb1139.chunk.js",
-    "main.js.map": "/sanabass/static/js/main.f6eb1139.chunk.js.map",
+    "main.css": "/sanabass/static/css/main.9a805478.chunk.css",
+    "main.js": "/sanabass/static/js/main.151778c2.chunk.js",
+    "main.js.map": "/sanabass/static/js/main.151778c2.chunk.js.map",
     "runtime-main.js": "/sanabass/static/js/runtime-main.4116bac1.js",
     "runtime-main.js.map": "/sanabass/static/js/runtime-main.4116bac1.js.map",
     "static/js/2.fcaa0975.chunk.js": "/sanabass/static/js/2.fcaa0975.chunk.js",
     "static/js/2.fcaa0975.chunk.js.map": "/sanabass/static/js/2.fcaa0975.chunk.js.map",
     "index.html": "/sanabass/index.html",
-    "static/css/main.276ba707.chunk.css.map": "/sanabass/static/css/main.276ba707.chunk.css.map",
+    "static/css/main.9a805478.chunk.css.map": "/sanabass/static/css/main.9a805478.chunk.css.map",
     "static/js/2.fcaa0975.chunk.js.LICENSE.txt": "/sanabass/static/js/2.fcaa0975.chunk.js.LICENSE.txt",
     "static/media/styles.scss": "/sanabass/static/media/bigGates.88d13cc1.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.4116bac1.js",
     "static/js/2.fcaa0975.chunk.js",
-    "static/css/main.276ba707.chunk.css",
-    "static/js/main.f6eb1139.chunk.js"
+    "static/css/main.9a805478.chunk.css",
+    "static/js/main.151778c2.chunk.js"
   ]
 }
