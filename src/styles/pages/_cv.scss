@@ -138,3 +138,43 @@ h2{
 #pdf-print{
     width: 100% !important;
 }
+
+.pdf-print {
+    ul{
+        margin:0;
+        padding:0;
+
+        li{
+            list-style-type: none;
+
+            &::before{
+                content: ".";
+                display: inline-block;
+                font-size: 110%;
+                padding-right: 10px;
+            }
+        }
+    }
+
+    .grid-container{
+        font-size: 12px !important;
+        max-width: 210mm;
+    }
+
+    .sidebar-container{
+        height: 297mm;
+    }
+
+    .header-actions{
+        display: none !important;
+    }
+
+    .circle{
+        width: 8px;
+        height: 8px;
+    }
+
+    .grid-period{
+        margin-top: 5px;
+    }
+}

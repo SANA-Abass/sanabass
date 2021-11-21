@@ -7,11 +7,8 @@ const Knowledges = () => {
             <Navigation/>
             <div className="knowledgesContent">
                 <div className="content">
-                    <h1>Knowledges</h1>
-                    <h2>Développeur projet logiciel</h2>
-                    <div className="downlodCVPDF">
-                        <a href="./media/CV.pdf" target="_blank">Télécharger CV</a>
-                    </div>
+                    <h1>ChatApp</h1>
+                    <h2>A Faire</h2>
                 </div>
             </div>
         </div>

@@ -8,14 +8,14 @@ const Navigation = () => {
                 <div className="idContent">
                     <img  src={process.env.PUBLIC_URL + '/media/img/sanaabass.jpg'} alt="Abass-SANA"/>
                     <h3>M. Abass SANA</h3>
-                    <span className="brieffing">Développeur full-stack de projets logiciels à la société d'études des systèmes d'information (SESIN). Doctorant-chercheur en algorithme d'intelligence artificielle au laboratoire images, signaux et systèmes intélligents (LISSI) de l'Université Paris XII</span>
+                    <span className="brieffing">Développeur full-stack à la SESIN Doctorant-chercheur en algorithme d'intelligence artificielle au laboratoire images, signaux et systèmes intélligents (LISSI) de l'Université Paris XII</span>
                 </div>
             </div>
 
             <div className="navigation">
                 <ul>
                     <li>
-                        <NavLink activeclassname="navActive" to="/">
+                        <NavLink activeclassname="navActive" to="/sanabass">
                             <i className="fas fa-home"></i>
                             <span>Accueil</span>
                         </NavLink>
@@ -73,7 +73,7 @@ const Navigation = () => {
             </div>
 
             <div className="signature">
-                <p>SA</p>
+                
             </div>
         </div>
     );
